@@ -85,7 +85,7 @@
 		C44E80FC1CBC9DB400006FCE /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
 		C44E810B1CBC9EA700006FCE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C44E810D1CBC9EF700006FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C44E810F1CBC9FDE00006FCE /* SwifthDB_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwifthDB_Bridging-Header.h"; path = "../Bridge/SwifthDB_Bridging-Header.h"; sourceTree = "<group>"; };
+		C44E81151CBCA2C800006FCE /* SwifthDB_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwifthDB_Bridging-Header.h"; path = "../Bridge/SwifthDB_Bridging-Header.h"; sourceTree = "<group>"; };
 		C486E0791CB3981C00DC85B8 /* OrderBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,7 +179,7 @@
 		C44E80B11CBC906000006FCE /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
-				C44E810F1CBC9FDE00006FCE /* SwifthDB_Bridging-Header.h */,
+				C44E81151CBCA2C800006FCE /* SwifthDB_Bridging-Header.h */,
 			);
 			name = Bridge;
 			path = ../Pod/Database;

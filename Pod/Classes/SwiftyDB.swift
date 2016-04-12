@@ -172,7 +172,7 @@ public class SwiftyDB {
      - returns:             Result type wrapping an array with the dictionaries representing objects, or an error if unsuccessful
      */
     
-    public func dataForType <S: Storable> (type: S.Type, matchingFilter filter: Filter? = nil) -> Result<[[String: Value?]]> {
+    public func dataForType <S: Storable> (type: S.Type, matchingFilter filter: Filter? = nil, orderBy:OrderBy? = nil) -> Result<[[String: Value?]]> {
         
         var results: [[String: Value?]] = []
         do {
@@ -181,7 +181,7 @@ public class SwiftyDB {
             }
             
             /* Generate statement */
-            let query = StatementGenerator.selectStatementForType(type, matchingFilter: filter)
+            let query = StatementGenerator.selectStatementForType(type, matchingFilter: filter, orderBy: orderBy)
             
             try databaseQueue.database { (database) -> Void in
                 let parameters = filter?.parameters() ?? [:]
@@ -381,8 +381,8 @@ extension SwiftyDB {
      - returns:             Result wrapping the objects, or an error, if unsuccessful
      */
     
-    public func objectsForType <D where D: Storable, D: NSObject> (type: D.Type, matchingFilter filter: Filter? = nil) -> Result<[D]> {
-        let dataResults = dataForType(D.self, matchingFilter: filter)
+    public func objectsForType <D where D: Storable, D: NSObject> (type: D.Type, matchingFilter filter: Filter? = nil, orderBy: OrderBy? = nil) -> Result<[D]> {
+        let dataResults = dataForType(D.self, matchingFilter: filter, orderBy: orderBy)
         
         if !dataResults.isSuccess {
             return .Error(dataResults.error!)
