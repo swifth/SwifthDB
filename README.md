@@ -4,6 +4,8 @@ There are many libraries out there that aims to help developers easily create an
 Unfortunately developers still have to get bogged down in simple tasks such as writing table definitions 
 and SQL queries. SwifthDB automatically handles everything you don't want to spend your time doing.
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 You can find the [documentation here](http://oyvindkg.github.io/swifthdb/docs/)
 
 **Content**<br />
