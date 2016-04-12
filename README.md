@@ -1,13 +1,8 @@
-![alt text] (http://i.imgur.com/uQhXJLJ.png?1 "Logo")
+SwifthDB
 
 There are many libraries out there that aims to help developers easily create and use SQLite databases. 
 Unfortunately developers still have to get bogged down in simple tasks such as writing table definitions 
 and SQL queries. SwifthDB automatically handles everything you don't want to spend your time doing.
-
-[![CI Status](https://img.shields.io/travis/Oyvindkg/swifthdb/master.svg?style=flat)](https://travis-ci.org/Oyvindkg/swifthdb)
-[![Version](https://img.shields.io/cocoapods/v/SwifthDB.svg?style=flat)](http://cocoapods.org/pods/SwifthDB)
-[![License](https://img.shields.io/cocoapods/l/SwifthDB.svg?style=flat)](http://cocoapods.org/pods/SwifthDB)
-[![Platform](https://img.shields.io/cocoapods/p/SwifthDB.svg?style=flat)](http://cocoapods.org/pods/SwifthDB)
 
 You can find the [documentation here](http://oyvindkg.github.io/swifthdb/docs/)
 
@@ -38,6 +33,15 @@ You can find the [documentation here](http://oyvindkg.github.io/swifthdb/docs/)
 - [ ] Store nested objects
 - [ ] Automated migration
 - [ ] Custom indices
+
+## <a name="installation">Installation</a>
+
+SwifthDB is available through Carthage. To install
+it, simply add the following line to your Cartfile
+
+Carthage
+
+github "ZipArchive/ZipArchive"
 
 ## <a name="usage">Usage</a>
 
@@ -306,11 +310,6 @@ class Dog: NSObject, Storable {
     }
 }
 ```
-
-## <a name="installation">Installation</a>
-
-SwifthDB is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby
 pod "SwifthDB"
