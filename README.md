@@ -317,7 +317,7 @@ pod "SwifthDB"
 
 ## Author
 
-Øyvind Grimnes, oyvindkg@yahoo.com
+swifth  tutorbob@qq.com
 
 ## <a name="License">License</a>
 
