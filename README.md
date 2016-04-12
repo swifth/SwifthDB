@@ -43,7 +43,7 @@ it, simply add the following line to your Cartfile
 
 Carthage
 
-github "ZipArchive/ZipArchive"
+github "swifth/SwifthDB"
 
 ## <a name="usage">Usage</a>
 
