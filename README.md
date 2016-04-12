@@ -310,11 +310,6 @@ class Dog: NSObject, Storable {
     }
 }
 ```
-
-```ruby
-pod "SwifthDB"
-```
-
 ## Author
 
 swifth  tutorbob@qq.com
