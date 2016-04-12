@@ -1,0 +1,3 @@
+framework module SwifthDB {
+    header "SwifthDB-Swift.h"
+}
