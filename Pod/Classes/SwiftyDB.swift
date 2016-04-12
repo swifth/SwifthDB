@@ -395,6 +395,20 @@ extension SwiftyDB {
         return .Success(objects)
     }
     
+    public func objectsForType <D where D: Storable, D: NSObject> (type: D.Type, orderBy: OrderBy) -> Result<[D]> {
+        let dataResults = dataForType(D.self, matchingFilter: nil, orderBy: orderBy)
+        
+        if !dataResults.isSuccess {
+            return .Error(dataResults.error!)
+        }
+        
+        let objects: [D] = dataResults.value!.map {
+            objectWithData($0, forType: D.self)
+        }
+        
+        return .Success(objects)
+    }
+    
     /**
      Creates a new dynamic object of a specified type and populates it with data from the provided dictionary
      
