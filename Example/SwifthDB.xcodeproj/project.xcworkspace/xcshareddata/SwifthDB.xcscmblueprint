@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2074290AAD7CAC386902AF8BD0760C0B9C544125",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e7eb5425-550f-fa46-b718-028c0011372e++8706" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2074290AAD7CAC386902AF8BD0760C0B9C544125" : 0,
+    "e7eb5425-550f-fa46-b718-028c0011372e++8706" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56AEB65E-534D-42AE-AC04-A945FCEE614D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2074290AAD7CAC386902AF8BD0760C0B9C544125" : "SwifthDB\/",
+    "e7eb5425-550f-fa46-b718-028c0011372e++8706" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwifthDB",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/SwifthDB.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swifth\/SwifthDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2074290AAD7CAC386902AF8BD0760C0B9C544125"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.0.1.2\/svn\/app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e7eb5425-550f-fa46-b718-028c0011372e++8706"
+    }
+  ]
+}

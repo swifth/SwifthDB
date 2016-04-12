@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e7eb5425-550f-fa46-b718-028c0011372e++8706",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2074290AAD7CAC386902AF8BD0760C0B9C544125",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "e7eb5425-550f-fa46-b718-028c0011372e++8706" : {
 
@@ -7,17 +7,24 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "48E4CBA43983781AF31F0D9C97D0F726D1AABDFD" : 0,
+    "2074290AAD7CAC386902AF8BD0760C0B9C544125" : 0,
     "e7eb5425-550f-fa46-b718-028c0011372e++8706" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25EAFBA9-1BD6-45F4-8E56-D5F8C3B78BB5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "48E4CBA43983781AF31F0D9C97D0F726D1AABDFD" : "SwiftyDB\/",
+    "2074290AAD7CAC386902AF8BD0760C0B9C544125" : "SwifthDB\/",
     "e7eb5425-550f-fa46-b718-028c0011372e++8706" : "..\/.."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftyDB",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/SwiftyDB.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swifth\/SwifthDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2074290AAD7CAC386902AF8BD0760C0B9C544125"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swifth\/swiftydb.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

@@ -5,7 +5,7 @@
 //  Created by Øyvind Grimnes on 13/01/16.
 //
 
-import TinySQLite
+import Foundation
 
 /** Support asynchronous queries */
 extension SwiftyDB {

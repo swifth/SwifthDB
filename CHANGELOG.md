@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 `SwiftyDB` adheres to [Semantic Versioning](http://semver.org/).
 
 
+### [2.0](https://github.com/swifth/swifthdb/releases/tag/2.0) (04/12/2016)
+
+#### Changes
+* fork from SwiftyDB
+* Support for Carthage
+* Support for Query Result's sort
+* Merge TinySQLite
+* Fixed problem 'Cannot found module sqlite3'
+* Fixed multiple SQLiteDatatype declaration bug
+* Fixed other bugs
+
 ### [1.1.0](https://github.com/Oyvindkg/swiftydb/releases/tag/1.1.0) (03/31/2016)
 
 #### Changes

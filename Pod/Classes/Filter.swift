@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import TinySQLite
 
 /** 
 An instance of the Filter class is used to filter query results

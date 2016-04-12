@@ -5,8 +5,6 @@
 //  Created by Øyvind Grimnes on 13/01/16.
 //
 
-import Quick
-import Nimble
 import SwiftyDB
 import TinySQLite
 

@@ -7,7 +7,6 @@
 
 
 import Foundation
-import TinySQLite
 
 
 /** All objects in the database must conform to the 'Storable' protocol */
