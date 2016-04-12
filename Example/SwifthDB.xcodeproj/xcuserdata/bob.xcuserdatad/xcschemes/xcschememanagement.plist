@@ -2,9 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SwifthDB.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SwiftyDB-Example.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>607FACE41AFB9204008FA782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44E80C51CBC951200006FCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C44E80CE1CBC951200006FCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
