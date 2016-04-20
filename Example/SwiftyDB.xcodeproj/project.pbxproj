@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		395202B71C46E20200BF5871 /* SwiftyDB+Asynchronous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395202B61C46E20200BF5871 /* SwiftyDB+Asynchronous.swift */; };
-		3955AEAF1C384E6100345785 /* StatementGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3955AEAE1C384E6100345785 /* StatementGenerator.swift */; };
-		3967B1CB1C4904580045D876 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967B1CA1C4904580045D876 /* Result.swift */; };
-		398E03791C2839FB003A868B /* SwiftyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E03751C2839FB003A868B /* SwiftyDB.swift */; };
-		398E037A1C2839FB003A868B /* PropertyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E03761C2839FB003A868B /* PropertyData.swift */; };
-		399A20D71CA435210010AD4F /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A20D61CA435210010AD4F /* Value.swift */; };
-		39C1F2EF1C4B2C6E00399275 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1F2EE1C4B2C6E00399275 /* Filter.swift */; };
-		C44E80B91CBC907400006FCE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E80B81CBC907400006FCE /* libsqlite3.tbd */; };
-		C44E80D01CBC951200006FCE /* SwiftyDB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E80C61CBC951200006FCE /* SwiftyDB_Tests.framework */; };
 		C44E80E11CBC955800006FCE /* OrderBy.swift in Headers */ = {isa = PBXBuildFile; fileRef = C486E0791CB3981C00DC85B8 /* OrderBy.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C44E80E21CBC955800006FCE /* SwiftyDB.swift in Headers */ = {isa = PBXBuildFile; fileRef = 398E03751C2839FB003A868B /* SwiftyDB.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C44E80E31CBC955800006FCE /* SwiftyDB+Asynchronous.swift in Headers */ = {isa = PBXBuildFile; fileRef = 395202B61C46E20200BF5871 /* SwiftyDB+Asynchronous.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,10 +23,6 @@
 		C44E80F31CBC957700006FCE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967B1CA1C4904580045D876 /* Result.swift */; };
 		C44E80F41CBC957700006FCE /* PropertyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E03761C2839FB003A868B /* PropertyData.swift */; };
 		C44E80F51CBC957700006FCE /* StatementGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3955AEAE1C384E6100345785 /* StatementGenerator.swift */; };
-		C44E80FE1CBC9DB400006FCE /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E80F91CBC9DB400006FCE /* DatabaseConnection.swift */; };
-		C44E80FF1CBC9DB400006FCE /* DatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E80FA1CBC9DB400006FCE /* DatabaseQueue.swift */; };
-		C44E81001CBC9DB400006FCE /* SQLiteDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E80FB1CBC9DB400006FCE /* SQLiteDataType.swift */; };
-		C44E81011CBC9DB400006FCE /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E80FC1CBC9DB400006FCE /* Statement.swift */; };
 		C44E81021CBC9DDD00006FCE /* DatabaseConnection.swift in Headers */ = {isa = PBXBuildFile; fileRef = C44E80F91CBC9DB400006FCE /* DatabaseConnection.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C44E81031CBC9DDD00006FCE /* DatabaseQueue.swift in Headers */ = {isa = PBXBuildFile; fileRef = C44E80FA1CBC9DB400006FCE /* DatabaseQueue.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C44E81041CBC9DDD00006FCE /* SQLiteDataType.swift in Headers */ = {isa = PBXBuildFile; fileRef = C44E80FB1CBC9DB400006FCE /* SQLiteDataType.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,21 +33,7 @@
 		C44E81091CBC9DED00006FCE /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E80FC1CBC9DB400006FCE /* Statement.swift */; };
 		C44E810C1CBC9EA700006FCE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E810B1CBC9EA700006FCE /* libsqlite3.0.tbd */; };
 		C44E810E1CBC9EF700006FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E810D1CBC9EF700006FCE /* Foundation.framework */; };
-		C45A29CA1CC72E5100870AB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45A29C81CC72E5100870AB4 /* Info.plist */; };
-		C45A29CB1CC72E5100870AB4 /* SwiftyDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A29C91CC72E5100870AB4 /* SwiftyDBTests.swift */; };
-		C45A29D21CC7314E00870AB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45A29D01CC7314E00870AB4 /* Info.plist */; };
-		C486E07A1CB3981C00DC85B8 /* OrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486E0791CB3981C00DC85B8 /* OrderBy.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C44E80D11CBC951200006FCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C44E80C51CBC951200006FCE;
-			remoteInfo = SwifthDB;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		395202B61C46E20200BF5871 /* SwiftyDB+Asynchronous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyDB+Asynchronous.swift"; sourceTree = "<group>"; };
@@ -73,10 +46,8 @@
 		39C1F2EE1C4B2C6E00399275 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		4941F082C46DB310CFFA4D30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5952E95AA4F519734DB64FCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
-		607FACE51AFB9204008FA782 /* SwiftyDB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44E80B81CBC907400006FCE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		C44E80C61CBC951200006FCE /* SwiftyDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44E80CF1CBC951200006FCE /* SwiftyDB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyDB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44E80C61CBC951200006FCE /* SwiftyDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44E80F91CBC9DB400006FCE /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
 		C44E80FA1CBC9DB400006FCE /* DatabaseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseQueue.swift; sourceTree = "<group>"; };
 		C44E80FB1CBC9DB400006FCE /* SQLiteDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDataType.swift; sourceTree = "<group>"; };
@@ -92,28 +63,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C44E80B91CBC907400006FCE /* libsqlite3.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44E80C21CBC951200006FCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C44E810E1CBC9EF700006FCE /* Foundation.framework in Frameworks */,
 				C44E810C1CBC9EA700006FCE /* libsqlite3.0.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C44E80CC1CBC951200006FCE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C44E80D01CBC951200006FCE /* SwiftyDB_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +116,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* SwiftyDB_Tests.xctest */,
-				C44E80C61CBC951200006FCE /* SwiftyDB_Tests.framework */,
-				C44E80CF1CBC951200006FCE /* SwiftyDB_Tests.xctest */,
+				C44E80C61CBC951200006FCE /* SwiftyDB.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,24 +205,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* SwiftyDB_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyDB_Tests" */;
-			buildPhases = (
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				C3B2FF23977DFBBF1D8575F0 /* Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyDB_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* SwiftyDB_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		C44E80C51CBC951200006FCE /* SwiftyDB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44E80D71CBC951200006FCE /* Build configuration list for PBXNativeTarget "SwiftyDB" */;
@@ -285,26 +220,8 @@
 			);
 			name = SwiftyDB;
 			productName = SwifthDB;
-			productReference = C44E80C61CBC951200006FCE /* SwiftyDB_Tests.framework */;
+			productReference = C44E80C61CBC951200006FCE /* SwiftyDB.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		C44E80CE1CBC951200006FCE /* SwiftyDBTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C44E80DA1CBC951200006FCE /* Build configuration list for PBXNativeTarget "SwiftyDBTests" */;
-			buildPhases = (
-				C44E80CB1CBC951200006FCE /* Sources */,
-				C44E80CC1CBC951200006FCE /* Frameworks */,
-				C44E80CD1CBC951200006FCE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C44E80D21CBC951200006FCE /* PBXTargetDependency */,
-			);
-			name = SwiftyDBTests;
-			productName = SwifthDBTests;
-			productReference = C44E80CF1CBC951200006FCE /* SwiftyDB_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -316,13 +233,7 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
 					C44E80C51CBC951200006FCE = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					C44E80CE1CBC951200006FCE = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -340,31 +251,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* SwiftyDB_Tests */,
 				C44E80C51CBC951200006FCE /* SwiftyDB */,
-				C44E80CE1CBC951200006FCE /* SwiftyDBTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C45A29D21CC7314E00870AB4 /* Info.plist in Resources */,
-				C45A29CA1CC72E5100870AB4 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44E80C41CBC951200006FCE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C44E80CD1CBC951200006FCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,45 +266,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C3B2FF23977DFBBF1D8575F0 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3967B1CB1C4904580045D876 /* Result.swift in Sources */,
-				39C1F2EF1C4B2C6E00399275 /* Filter.swift in Sources */,
-				C45A29CB1CC72E5100870AB4 /* SwiftyDBTests.swift in Sources */,
-				3955AEAF1C384E6100345785 /* StatementGenerator.swift in Sources */,
-				C44E81011CBC9DB400006FCE /* Statement.swift in Sources */,
-				399A20D71CA435210010AD4F /* Value.swift in Sources */,
-				C44E80FF1CBC9DB400006FCE /* DatabaseQueue.swift in Sources */,
-				C44E81001CBC9DB400006FCE /* SQLiteDataType.swift in Sources */,
-				395202B71C46E20200BF5871 /* SwiftyDB+Asynchronous.swift in Sources */,
-				398E03791C2839FB003A868B /* SwiftyDB.swift in Sources */,
-				398E037A1C2839FB003A868B /* PropertyData.swift in Sources */,
-				C44E80FE1CBC9DB400006FCE /* DatabaseConnection.swift in Sources */,
-				C486E07A1CB3981C00DC85B8 /* OrderBy.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44E80C11CBC951200006FCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,22 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C44E80CB1CBC951200006FCE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C44E80D21CBC951200006FCE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C44E80C51CBC951200006FCE /* SwiftyDB */;
-			targetProxy = C44E80D11CBC951200006FCE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -534,41 +374,6 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = SwiftyDB_Tests;
-				SWIFT_OBJC_BRIDGING_HEADER = "../Pod/Database/SwifthDB_Tests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = SwiftyDB_Tests;
-				SWIFT_OBJC_BRIDGING_HEADER = "../Pod/Database/SwifthDB_Tests-Bridging-Header.h";
-			};
-			name = Release;
-		};
 		C44E80D81CBC951200006FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,7 +392,7 @@
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.chaojijiangshi.SwifthDB;
-				PRODUCT_NAME = SwiftyDB_Tests;
+				PRODUCT_NAME = SwiftyDB;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/../Pod/Bridge/SwiftyDB_Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -612,38 +417,12 @@
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.chaojijiangshi.SwifthDB;
-				PRODUCT_NAME = SwiftyDB_Tests;
+				PRODUCT_NAME = SwiftyDB;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/../Pod/Bridge/SwiftyDB_Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C44E80DB1CBC951200006FCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = SwifthDBTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.chaojijiangshi.SwifthDBTests;
-				PRODUCT_NAME = SwiftyDB_Tests;
-			};
-			name = Debug;
-		};
-		C44E80DC1CBC951200006FCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				INFOPLIST_FILE = SwifthDBTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.chaojijiangshi.SwifthDBTests;
-				PRODUCT_NAME = SwiftyDB_Tests;
 			};
 			name = Release;
 		};
@@ -659,29 +438,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftyDB_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C44E80D71CBC951200006FCE /* Build configuration list for PBXNativeTarget "SwiftyDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C44E80D81CBC951200006FCE /* Debug */,
 				C44E80D91CBC951200006FCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C44E80DA1CBC951200006FCE /* Build configuration list for PBXNativeTarget "SwiftyDBTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C44E80DB1CBC951200006FCE /* Debug */,
-				C44E80DC1CBC951200006FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
