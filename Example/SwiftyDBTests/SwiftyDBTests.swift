@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import SwifthDB
+@testable import SwiftyDB
 
-class SwifthDBTests: XCTestCase {
+class SwiftyDBTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

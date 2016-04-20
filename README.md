@@ -1,12 +1,12 @@
-SwifthDB
+SwiftyDB
 
 There are many libraries out there that aims to help developers easily create and use SQLite databases. 
 Unfortunately developers still have to get bogged down in simple tasks such as writing table definitions 
-and SQL queries. SwifthDB automatically handles everything you don't want to spend your time doing.
+and SQL queries. SwiftyDB automatically handles everything you don't want to spend your time doing.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-You can find the [documentation here](http://oyvindkg.github.io/swifthdb/docs/)
+You can find the [documentation here](http://oyvindkg.github.io/SwiftyDB/docs/)
 
 **Content**<br />
 [Features](#features)<br />
@@ -38,23 +38,23 @@ You can find the [documentation here](http://oyvindkg.github.io/swifthdb/docs/)
 
 ## <a name="installation">Installation</a>
 
-SwifthDB is available through Carthage. To install
+SwiftyDB is available through Carthage. To install
 it, simply add the following line to your Cartfile
 
 Carthage
 
-git "https://github.com/swifth/SwifthDB.git"
+git "https://github.com/swifth/SwiftyDB.git"
 
 ## <a name="usage">Usage</a>
 
-Almost pure plug and play. All you have to do is create an instance of SwifthDB, and everything will be handled automagically behind the scenes 🎩
+Almost pure plug and play. All you have to do is create an instance of SwiftyDB, and everything will be handled automagically behind the scenes 🎩
 
 ### <a name="accessTheDatabase">Access the database</a>
 
-Tell SwifthDB what you want to call your database, and you are ready to go. If a database with the provided name does not exist, it will be created.
+Tell SwiftyDB what you want to call your database, and you are ready to go. If a database with the provided name does not exist, it will be created.
 
 ```Swift
-let database = SwifthDB(databaseName: "dogtopia")
+let database = SwiftyDB(databaseName: "dogtopia")
 ```
 
 #### <a name="syncAccess">Synchronous access</a>
@@ -166,7 +166,7 @@ let filter = Filter.equal("name", value: "Ghost")
 database.objectsForType(Dog.self, matchingFilters: filter)
 ```
 
-See all available filters in the [documentation](http://oyvindkg.github.io/swifthdb/docs/Classes/Filter.html).
+See all available filters in the [documentation](http://oyvindkg.github.io/SwiftyDB/docs/Classes/Filter.html).
 
 > It is not possible to filter results using the content of stored collections as these are stored as blobs in the database
 
@@ -256,7 +256,7 @@ class Dog: Storable {
 }
 ```
 
-> SwifthDB supports inheritance. Valid properties from both the class and the superclass will be stored automatically
+> SwiftyDB supports inheritance. Valid properties from both the class and the superclass will be stored automatically
 
 ##### <a name="primaryKeys">Primary keys</a>
 It is recommended to implement the `PrimaryKeys` protocol. The `primaryKeys()` method should return a set of property names which uniquely identifies an object.
@@ -279,11 +279,11 @@ extension Dog: IgnoredProperties {
     }
 }
 ```
-> Properties with datatypes that are not part of the `Value` protocol, will automatically be ignored by SwifthDB
+> Properties with datatypes that are not part of the `Value` protocol, will automatically be ignored by SwiftyDB
 
 ### <a name="howToRetrieveObjects">How to retrieve objects</a>
 
-SwifthDB can also retrieve complete objects with all properties assigned with data from the database. In order to achieve this, the type must be a subclass of `NSObject`, and all property types must be representable in in Objective-C. This is because pure Swift currently does not support dynamic assignment of properties. 
+SwiftyDB can also retrieve complete objects with all properties assigned with data from the database. In order to achieve this, the type must be a subclass of `NSObject`, and all property types must be representable in in Objective-C. This is because pure Swift currently does not support dynamic assignment of properties. 
 
 **Dynamic property types**
 - [x] `Int`
@@ -318,4 +318,4 @@ swifth  tutorbob@qq.com
 
 ## <a name="License">License</a>
 
-SwifthDB is available under the MIT license. See the LICENSE file for more info.
+SwiftyDB is available under the MIT license. See the LICENSE file for more info.

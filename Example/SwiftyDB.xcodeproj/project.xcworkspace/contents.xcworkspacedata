@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/bob/project/ios3/Github/SwifthDB/Example/SwifthDB.xcodeproj">
+      location = "self:/Users/bob/project/ios3/Github/SwifthDB/Example/SwiftyDB.xcodeproj">
    </FileRef>
 </Workspace>

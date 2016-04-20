@@ -17,7 +17,7 @@
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
                BuildableName = "SwiftyDB_Example.app"
                BlueprintName = "SwiftyDB_Example"
-               ReferencedContainer = "container:SwifthDB.xcodeproj">
+               ReferencedContainer = "container:SwiftyDB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SwifthDB_Tests.xctest"
-               BlueprintName = "SwifthDB_Tests"
-               ReferencedContainer = "container:SwifthDB.xcodeproj">
+               BuildableName = "SwiftyDB_Tests.xctest"
+               BlueprintName = "SwiftyDB_Tests"
+               ReferencedContainer = "container:SwiftyDB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SwifthDB_Tests.xctest"
-               BlueprintName = "SwifthDB_Tests"
-               ReferencedContainer = "container:SwifthDB.xcodeproj">
+               BuildableName = "SwiftyDB_Tests.xctest"
+               BlueprintName = "SwiftyDB_Tests"
+               ReferencedContainer = "container:SwiftyDB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SwiftyDB_Example.app"
             BlueprintName = "SwiftyDB_Example"
-            ReferencedContainer = "container:SwifthDB.xcodeproj">
+            ReferencedContainer = "container:SwiftyDB.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SwiftyDB_Example.app"
             BlueprintName = "SwiftyDB_Example"
-            ReferencedContainer = "container:SwifthDB.xcodeproj">
+            ReferencedContainer = "container:SwiftyDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,7 +101,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SwiftyDB_Example.app"
             BlueprintName = "SwiftyDB_Example"
-            ReferencedContainer = "container:SwifthDB.xcodeproj">
+            ReferencedContainer = "container:SwiftyDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
